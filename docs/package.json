@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "stephen",
+    "email": "stephen@epyo.eu"
+  },
+  "repository": "/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-gouv-fr": "^1.1.1"
+  }
+}
